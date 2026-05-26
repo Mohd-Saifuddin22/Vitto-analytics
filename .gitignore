@@ -1,0 +1,39 @@
+# ── Dev & planning artefacts ──────────────────────────────────────────────────
+.agents/
+.vscode/
+issues/
+context.txt
+condaenv.*.requirements.txt
+
+# ── Assignment brief (confidential, not for public distribution) ──────────────
+Vitto_DS_Intern_Assignment.docx
+Vitto_DS_Intern_Assignment.txt
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert/
+
+# ── Conda / pip ───────────────────────────────────────────────────────────────
+*.conda
+.conda/
+envs/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
