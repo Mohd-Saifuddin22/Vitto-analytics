@@ -1,6 +1,11 @@
 # Credit Default Risk Analysis
 ### Vitto — Data Science Intern Technical Assessment
 
+[![View on nbviewer](https://img.shields.io/badge/Jupyter-View%20Notebook-orange?logo=jupyter)](https://nbviewer.org/github/Mohd-Saifuddin22/Vitto-analytics/blob/main/credit_default_analysis.ipynb)
+[![Open on GitHub](https://img.shields.io/badge/GitHub-View%20Source-181717?logo=github)](https://github.com/Mohd-Saifuddin22/Vitto-analytics/blob/main/credit_default_analysis.ipynb)
+
+> 📓 **Best viewed on nbviewer** — renders all plots and outputs instantly without running the notebook.
+
 End-to-end analysis of credit card default behaviour using the UCI Credit Card Default dataset (30,000 clients, Taiwan, 2005). The notebook identifies the strongest predictors of default, builds and compares classification models, and communicates findings to both technical and non-technical stakeholders.
 
 ---
