@@ -103,6 +103,7 @@ jupyter notebook credit_default_analysis.ipynb
 | **03 Model Development** | Logistic Regression baseline · XGBoost classifier · Stratified 5-fold CV · Top 5 feature importances |
 | **04 Visualisation & Communication** | ROC curve · Confusion matrix · Non-technical summary · Two concrete business actions |
 | **05 Data Quality & Edge Cases** | Undocumented EDUCATION/MARRIAGE values · Negative BILL_AMT handling |
+| **06 ⭐ Bonus: Fairness Check** | False Positive Rate by SEX & EDUCATION · Disparity visualisation · Fairness recommendations |
 
 ---
 
@@ -124,6 +125,19 @@ jupyter notebook credit_default_analysis.ipynb
 5. `PAY_5` — repayment status May 2005
 
 > Consecutive repayment delay history dominates. Credit utilisation and repayment ratio features provide complementary signal.
+
+---
+
+## ⭐ Bonus: Fairness Analysis
+
+The model's **False Positive Rate (FPR)** — non-defaulters wrongly flagged as risky — is compared across demographic groups to surface potential lending bias:
+
+| Group | Metric |
+|---|---|
+| SEX (Male vs Female) | FPR compared — disparity noted and documented |
+| EDUCATION (4 levels) | FPR compared across Graduate School, University, High School, Other |
+
+> See **Section 06** in the notebook for full results, visualisations, and fairness recommendations including threshold calibration guidance.
 
 ---
 
